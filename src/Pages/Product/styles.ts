@@ -8,6 +8,7 @@ export const Container = styled.main`
     padding: 0 2rem;
 
     display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
     
     .slider {

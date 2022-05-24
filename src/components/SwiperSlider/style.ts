@@ -10,14 +10,22 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
   border-radius: 18px;
+  
   font-size: 22px;
   font-weight: bold;
+  
   color: #fff;
+  
+  img {
+    width: 100%;
+  }
 }
 
 .swiper-slide:nth-child(1n) {
   background-color: rgb(206, 17, 17);
+  
 }
 
 .swiper-slide:nth-child(2n) {

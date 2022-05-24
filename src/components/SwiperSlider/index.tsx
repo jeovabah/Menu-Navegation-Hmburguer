@@ -26,7 +26,7 @@ export const SwiperSlider =() => {
         }}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Praia_de_Jau%C3%A1.jpg/1200px-Praia_de_Jau%C3%A1.jpg" alt="praia" /> </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
       </Swiper>

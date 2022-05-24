@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         .headerMobile {
             display: flex;
             position: fixed;
+            z-index: 10;
         }
     }
 `;

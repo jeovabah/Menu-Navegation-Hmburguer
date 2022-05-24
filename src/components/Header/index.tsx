@@ -18,6 +18,9 @@ export const Header = () => {
     <Container className='headerMobile'>
         <FaBars onClick={showSideBar} />
         { sidebar && <SideBar active={setSidebar} />}
+        <div className="headerLogo">
+          <h1>Logo <span>menu</span> </h1>
+        </div>
     </Container>
     </ContainerHeader>
   )

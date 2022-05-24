@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerHeader = styled.div`
     background-color: blue;
     height: 4rem;
+
     .headerPc {
         ul{
             display: flex;
@@ -35,6 +36,15 @@ export const Container = styled.div`
         z-index: 10;
 
     }
-    
+
+    .headerLogo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        > h1 {
+            text-align: center;
+        }
+    }
     
 `
