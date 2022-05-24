@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-    max-width: 1280px;
-    height: 100vh;
 
     margin: 0 auto;
     padding: 0 2rem;
@@ -13,5 +11,12 @@ export const Container = styled.main`
     
     .slider {
         margin: 0 auto;
+    }
+    .contentProduct {
+        
+        @media screen and (min-width: 550px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
     }
 `
